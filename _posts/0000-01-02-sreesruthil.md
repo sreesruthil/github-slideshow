@@ -17,12 +17,13 @@ function fancyAlert(arg) {
 }
 ```
 Use left arrow to go back
--[ ] This is an incomplte list item 
--[x] This is a complete list item 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
 
-What about some tables ?
 
---------|----------
-First header | Second header
----|---
-Item 1 | Item 2 
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
